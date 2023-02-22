@@ -1,8 +1,10 @@
 <h1> Why Web Dev? </h1>
 
-<a href="index.html"> Home </a>
-<a href="opportunities.html"> Web Dev Opportunities </a>
-<a href="other-careers.html"> Other Coding Careers </a>
+<nav>
+  <a href="index.html"> Home </a>
+  <a href="opportunities.html"> Web Dev Opportunities </a>
+  <a href="other-careers.html"> Other Coding Careers </a>
+</nav>
 
 <p>
   There are plenty of way to learn coding, but here are some reasons why we focus on web dev.
@@ -14,6 +16,8 @@
   <li> You can build useful applications to make money, help others, or just make your own life easier. </li>
   <li> Web dev has loads of transferrable skills to other areas, from project management to marketing to accounting to entrepeneurship. </li>
 </ul>
+<img src="html-logo.svg">
+
 
 <style>
   * {
@@ -24,6 +28,12 @@
     text-align: center;
   }
 
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+
   a {
     text-decoration: none;
     color: black;
@@ -31,10 +41,19 @@
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-  }
+    }
 
   a:hover {
     color: white;
     background-color: black;
   }
+  img {
+  width: 10rem;
+  margin-top: 10;
+  margin-left: 600;
+  }
+  a:hover {
+  background-color: black;
+}
+
 </style>
