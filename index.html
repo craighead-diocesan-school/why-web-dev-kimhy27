@@ -5,7 +5,7 @@
 </head>
 
 <body>
-  
+
 <h1> Why Web Dev? </h1>
 
 <nav>
@@ -95,5 +95,18 @@
   p{
     margin-left: 80;
   }
+
+  body {
+    display: grid;
+    grid: " h    h    h  " 3em
+          " m    m    .  " auto
+          " .    f    .  " 5em
+          / 1fr  5fr  1fr;
+  }
+
+  header { grid-area: h; }
+  nav    { grid-area: n; }
+  main   { grid-area: m; }
+  footer { grid-area: f; }
 
 </style>
